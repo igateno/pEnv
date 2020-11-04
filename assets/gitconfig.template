@@ -1,3 +1,7 @@
+[core]
+    pager = delta --dark --theme='Solarized (dark)'
+[interactive]
+    diffFilter = delta --color-only
 [user]
     name = {{NAME}}
     email = {{EMAIL}}
@@ -14,4 +18,4 @@
 [difftool]
     prompt = false
 [help]
-	autocorrect = 1
+    autocorrect = 1
